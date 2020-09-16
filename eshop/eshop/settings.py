@@ -55,7 +55,7 @@ ROOT_URLCONF = 'eshop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['pages/templates'],
+        'DIRS': ['pages/templates', 'pages/checkout', 'pages/product', 'pages/sign-in'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

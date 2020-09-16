@@ -9,3 +9,12 @@ class IndexPage(TemplateView):
 
 class ProfilePage(TemplateView):
     template_name='profile.html'
+    
+class CheckOutPage(TemplateView):
+    template_name='checkout.html'
+
+class SigninPage(TemplateView):
+    template_name='signin.html'
+
+class ProductPage(TemplateView):
+    template_name='Product.html'
